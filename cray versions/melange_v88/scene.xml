@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<scene>
+  <globals
+     window_x        = "0"
+     window_y        = "20"
+     window_width    = "400"
+     window_height   = "400"
+     pixel_samples   = "4"
+     max_ray_depth   = "5"
+     camera_location = "0 0 5"
+     camera_fov      = "40"
+     />
+  <light location = "4 4 8" color = ".5 .5 .5" radius = "0.5" />
+  <light location = "-4 0 8" color = ".5 .5 .5" radius = "0.5" />
+  <sphere center = "0 1 0" radius = "0.5" >
+    <material kd = "1" ks = "0.5" reflectivity = "0.5" diff_color = "0.8 0.2 0.2" />
+  </sphere>
+  <sphere center = ".866 .5 0" radius = "0.5" >
+    <material kd = "1" ks = "0.5" reflectivity = "0.5" diff_color = "0.8 0.8 0.2" />
+  </sphere>
+  <sphere center = ".866 -.5 0" radius = "0.5" >
+    <material kd = "1" ks = "0.5" reflectivity = "0.5" diff_color = "0.2 0.8 0.2" />
+  </sphere>
+  <sphere center = "0 -1 0" radius = "0.5" >
+    <material kd = "1" ks = "0.5" reflectivity = "0.5" diff_color = "0.2 0.8 0.8" />
+  </sphere>
+  <sphere center = "-.866 -.5 0" radius = "0.5" >
+    <material kd = "1" ks = "0.5" reflectivity = "0.5" diff_color = "0.2 0.2 0.8" />
+  </sphere>
+  <sphere center = "-.866 .5 0" radius = "0.5" >
+    <material kd = "1" ks = "0.5" reflectivity = "0.5" diff_color = "0.8 0.2 0.8" />
+  </sphere>
+  <plane
+     normal     = "0 0 1"
+     distance   = "0.5"
+     min_extent = "-10 -10 -10"
+     max_extent = "10 10 10"
+     >
+     <material
+        diff_color = "1 1 1" kd = "1.0" ks = "0.0" reflectivity = "0"
+     />
+  </plane>
+</scene>
+ 

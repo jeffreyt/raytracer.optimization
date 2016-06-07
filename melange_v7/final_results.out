@@ -1,0 +1,30 @@
+testing started
+===================================
+optimization -O0
+Elapsed time: 115.9795 sec
+Elapsed time: 115.7458 sec
+Elapsed time: 116.2233 sec
+Elapsed time: 115.7330 sec
+Elapsed time: 115.9499 sec
+===================================
+optimization -O2
+Elapsed time: 43.2569 sec
+Elapsed time: 43.2003 sec
+Elapsed time: 43.2180 sec
+Elapsed time: 43.3595 sec
+Elapsed time: 43.3485 sec
+===================================
+optimization -O3
+Elapsed time: 38.5586 sec
+Elapsed time: 38.8656 sec
+Elapsed time: 38.5478 sec
+Elapsed time: 38.5440 sec
+Elapsed time: 38.6659 sec
+===================================
+optimization -O4
+Elapsed time: 38.6307 sec
+Elapsed time: 38.5433 sec
+Elapsed time: 38.6055 sec
+Elapsed time: 38.6451 sec
+Elapsed time: 38.7626 sec
+===================================

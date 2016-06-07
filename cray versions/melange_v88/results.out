@@ -1,0 +1,29 @@
+starting test
+Test -O0
+Elapsed time: 4.5670 sec
+Elapsed time: 4.9453 sec
+Elapsed time: 4.8653 sec
+Elapsed time: 5.0547 sec
+Elapsed time: 4.5627 sec
+============================
+Test -O2
+Elapsed time: 1.4057 sec
+Elapsed time: 1.1458 sec
+Elapsed time: 1.1441 sec
+Elapsed time: 1.3539 sec
+Elapsed time: 1.2474 sec
+============================
+Test -O3
+Elapsed time: 1.4384 sec
+Elapsed time: 1.1844 sec
+Elapsed time: 1.2365 sec
+Elapsed time: 1.4384 sec
+Elapsed time: 1.3115 sec
+============================
+Test -Ofast
+Elapsed time: 1.3659 sec
+Elapsed time: 1.4814 sec
+Elapsed time: 1.5153 sec
+Elapsed time: 1.3458 sec
+Elapsed time: 1.1124 sec
+============================
